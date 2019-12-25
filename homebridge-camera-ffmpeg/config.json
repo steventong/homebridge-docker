@@ -1,0 +1,27 @@
+{
+    "bridge": {
+        "name": "StevenHBCamera",
+        "username": "00:00:00:00:00:00",
+        "port": 51826,
+        "pin": "031-45-154"
+    },
+    "description": "海康威视-萤石摄像头", 
+    "platforms": [
+        {
+            "platform": "Camera-ffmpeg",
+            "cameras": [
+                {
+                    "name": "EZVIZ Camera",
+                    "videoConfig": {
+                        "source": "-re -i __RTSP_SOURCE",
+                        "stillImageSource": "-i https://images.itwl.me/images/loading.png",
+                        "maxStreams": 2,
+                        "maxWidth": 1280,
+                        "maxHeight": 720,
+                        "maxFPS": 30
+                    }
+                }
+            ]
+        }
+    ]
+}

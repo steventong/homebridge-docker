@@ -1,0 +1,32 @@
+{
+    "bridge": {
+        "name": "StevenHBYeelight",
+        "username": "00:00:00:00:00:01",
+        "port": 35457,
+        "pin": "031-45-154"
+    },
+    "description": "This is an configuration file for local development of the Yeelight platform plugin",
+    "platforms": [
+        {
+            "platform": "yeelight",
+            "name": "yeelight",
+            "defaultValue": {
+                "f387b8": {
+                    "name": "主卧吸顶灯"
+                },
+                "f38706": {
+                    "name": "次卧吸顶灯"
+                },
+                "d96d9b": {
+                    "name": "玄关灯带柜子"
+                },
+                "ec436c": {
+                    "name": "玄关灯带厨房"
+                },
+                "222696": {
+                    "name": "书桌台灯"
+                }
+            }
+        }
+    ]
+}

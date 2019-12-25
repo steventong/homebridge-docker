@@ -1,3 +1,9 @@
+# test build and run
+```
+docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:test_latest . && \
+docker run --rm registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:test_latest
+```
+
 # build
 ```
 docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191224 . \

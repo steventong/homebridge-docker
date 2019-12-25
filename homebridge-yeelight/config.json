@@ -6,10 +6,11 @@
         "pin": "031-45-154"
     },
     "description": "This is an configuration file for local development of the Yeelight platform plugin",
+    "accessories": [],
     "platforms": [
         {
             "platform": "yeelight",
-            "name": "yeelight",
+            "name": "Yeelight",
             "defaultValue": {
                 "f387b8": {
                     "name": "主卧吸顶灯"

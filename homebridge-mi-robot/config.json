@@ -1,0 +1,24 @@
+{
+    "bridge": {
+        "name": "StevenHBMiRobot",
+        "username": "00:00:00:00:00:02",
+        "port": 51645,
+        "pin": "031-45-154"
+    },
+    "description": "xiaomi robot v1",
+    "platforms": [
+        {
+            "platform": "MiRobotVacuumPlatform",
+            "deviceCfgs": [
+                {
+                    "type": "MiRobotVacuum",
+                    "ip": "10.0.1.2",
+                    "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+                    "robotVacuumName": "扫地机器人",
+                    "enablePauseToCharge": true,
+                    "robotVacuumDisable": false
+                }
+            ]
+        }
+    ]
+}

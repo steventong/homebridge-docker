@@ -4,7 +4,7 @@ docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight
 docker run --rm registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:test_latest
 ```
 
-# build
+# build and push
 ```
 docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225 . \
 && docker push registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225 
@@ -12,6 +12,6 @@ docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight
 
 # run
 ```
-docker pull registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191224 \
-&& docker run -d --name homebridge-yeelight --net=host --restart=always registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191224
+docker pull registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225 \
+&& docker run -d --name homebridge-yeelight --net=host --restart=always registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225
 ```

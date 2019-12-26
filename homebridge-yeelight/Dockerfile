@@ -1,9 +1,9 @@
-FROM node:12.14.0-alpine3.11
+FROM tongwanglin/homebridge-base:20191225
 
-RUN npm install -g --unsafe-perm homebridge homebridge-yeelight-wifi --registry=https://registry.npm.taobao.org
-
-WORKDIR /root/.homebridge
+RUN npm install -g --unsafe-perm homebridge-yeelight-wifi --registry=https://registry.npm.taobao.org
 
 COPY config.json config.json
+
+EXPOSE 35457
 
 CMD ["homebridge"]

@@ -6,4 +6,4 @@ COPY config.json config.json
 
 EXPOSE 35457
 
-CMD ["homebridge"]
+ENTRYPOINT ["homebridge"]

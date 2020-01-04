@@ -7,6 +7,6 @@ docker run --rm --name homebridge-ezviz-camera --net=host -e RTSP_SOURCE=rtsp://
 
 # push
 ```
-docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-camera-ffmpeg:20191225 . && \
-docker push registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-camera-ffmpeg:20191225
+docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-camera-ffmpeg:20200101 . && \
+docker push registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-camera-ffmpeg:20200101
 ```

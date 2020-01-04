@@ -16,9 +16,9 @@
                         "source": "-re -i __RTSP_SOURCE",
                         "stillImageSource": "-i https://images.itwl.me/images/loading.png",
                         "maxStreams": 2,
-                        "maxWidth": 1280,
-                        "maxHeight": 720,
-                        "maxFPS": 30
+                        "maxWidth": 1920,
+                        "maxHeight": 1080,
+                        "maxFPS": 25
                     }
                 }
             ]

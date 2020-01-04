@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "StevenHBMiRobot",
+        "username": "00:00:00:00:00:02",
+        "port": 40395,
+        "pin": "031-45-154"
+    },
+    "description": "xiaomi robot v1",
+    "accessories": [
+        {
+            "accessory": "XiaomiRoborockVacuum",
+            "name": "Xiaomi Mi Robot Vaccum 1st Generation",
+            "ip": "10.0.1.32",
+            "token": "ffffffffffffffffffffffffffffffff",
+            "pause": false,
+            "dock": true
+        }
+    ],
+    "platforms": []
+}

@@ -4,4 +4,6 @@ RUN npm install -g --unsafe-perm homebridge homebridge-config-ui-x --registry=ht
 
 RUN npm install -g cnpm --registry=https://registry.npm.taobao.org
 
+RUN apk add --no-cache git
+
 WORKDIR /root/.homebridge

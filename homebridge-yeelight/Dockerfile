@@ -4,6 +4,6 @@ RUN npm install -g --unsafe-perm homebridge-yeelight-wifi --registry=https://reg
 
 COPY config.json config.json
 
-EXPOSE 35457
+EXPOSE 35457 8080
 
 ENTRYPOINT ["homebridge"]

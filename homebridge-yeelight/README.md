@@ -6,8 +6,8 @@ docker run --rm registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight
 
 # build and push
 ```
-docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225 . \
-&& docker push registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191225 
+docker build -t registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191226 . \
+&& docker push registry.cn-hangzhou.aliyuncs.com/steventong/homebridge-yeelight:20191226
 ```
 
 # run
